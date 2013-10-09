@@ -1,0 +1,9 @@
+<html>
+<body>
+{% for guestbook in guestbookdetails %}
+<div>
+<p><a href="/guestbookdetails/get/{{ guestbook.id  }}/">{{ guestbook.First_Name   }}</a></p>
+</div>
+{% endfor %}
+</body>
+</html>
